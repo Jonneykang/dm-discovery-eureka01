@@ -1,0 +1,18 @@
+server:
+  port: 7778
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7778/eureka/
+  #关闭自我防护功能
+  server:
+    enable-self-preservation: false
+#添加用户认证
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: 123456
