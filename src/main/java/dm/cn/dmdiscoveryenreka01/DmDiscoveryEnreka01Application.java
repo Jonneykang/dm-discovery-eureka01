@@ -15,5 +15,6 @@ public class DmDiscoveryEnreka01Application {
 
         SpringApplication.run(DmDiscoveryEnreka01Application.class, args);
 
+
     }
 }
